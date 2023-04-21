@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import "./styles.css";
+import TanentsTable from "./components/TanentsTable";
+import TanentsTable2 from "./components/TanentsTable";
+import Login from "./components/Login";
+// import Login2 from "./components/Login2";
+// import Login3 from "./components/Login3";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <TanentsTable /> */}
+      {/*<TanentsTable2 />*/}
+      <Login />
+      {/*<Login3 />*/}
+      {/*<Login2 />*/}
     </div>
   );
 }

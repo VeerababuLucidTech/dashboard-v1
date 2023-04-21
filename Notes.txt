@@ -1,0 +1,43 @@
+npm i bootstrap
+// Then import Bootstrap
+import "../node_modules/bootstrap/scss/bootstrap";
+
+
+npm i @mui/icons-material
+
+npm i react-icons
+
+ex:1
+-----
+import { FaBeer } from "react-icons/fa";
+
+function Question() {
+  return (
+    <h3>
+      {" "}
+      Lets go for a <FaBeer />?{" "}
+    </h3>
+  );
+}
+
+ex:2
+------
+npm i react-native-vector-icons
+import Icon from 'react-native-vector-icons/FontAwesome';
+const myButton = (
+  <Icon.Button
+    name="facebook"
+    backgroundColor="#3b5998"
+    onPress={this.loginWithFacebook}
+  >
+    Login with Facebook
+  </Icon.Button>
+);
+
+const customTextButton = (
+  <Icon.Button name="facebook" backgroundColor="#3b5998">
+    <Text style={{ fontFamily: 'Arial', fontSize: 15 }}>
+      Login with Facebook
+    </Text>
+  </Icon.Button>
+);
