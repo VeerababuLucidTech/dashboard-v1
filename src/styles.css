@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
 
 body {
-  background: linear-gradient(90deg, #000000 0%, #000000 100%);
+   background: linear-gradient(90deg, #000000 0%, #000000 100%);
 }
 .form {
-  position: relative;
+  
+  position:relative;
   z-index: 1;
   background: #ffffff;
-
-  margin: 0 auto 100px;
-  padding: 167px 40px;
+  /* margin: 0 auto 100px; */
+  padding: 137px 40px;
   text-align: center;
 }
 
@@ -19,10 +19,10 @@ body {
   width: 100%;
   border: 0;
   border-radius: 5px;
-  margin: 0 0 15px;
-  padding: 15px;
+  /* margin: 0 0 15px; */
+  padding: 10px;
   box-sizing: border-box;
-  font-size: 14px;
+  font-size: 12px;
   /* font-family: "Comfortaa", cursive; */
 }
 
@@ -38,9 +38,9 @@ body {
   width: 100%;
   border: 0;
   border-radius: 5px;
-  padding: 15px;
+  padding: 10px;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 12px;
   -webkit-transition: all 0.3 ease;
   transition: all 0.3 ease;
   cursor: pointer;
@@ -65,8 +65,8 @@ body {
   color: red;
 }
 .login-img {
-  width: 480px ;
-  height: 550px;
+  width: 382px ;
+  height: 530px;
   margin: 46px 0px 0px 0px;
 
 }
@@ -74,4 +74,16 @@ body {
   margin: auto;
   /* font-family: "Comfortaa", cursive; */
   margin: 46px 0px 0px 0px;
+}
+p{
+  font-size: 14px;
+}
+a{
+  text-decoration: none !important;
+}
+.checkbox{
+  width: auto !important;
+}
+.forgetPassword{
+  padding-left: 10px;
 }
